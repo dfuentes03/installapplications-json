@@ -1,0 +1,30 @@
+{
+  "preflight": [
+    {
+      "file": "/Library/installapplications/installapplications-preflight.sh",
+      "hash": "7d6422775272001b39899e0ae962d97cc2048a32afa7c520be824d7ea5567db0",
+      "name": "Preflight Script",
+      "type": "rootscript",
+      "url": "https://github.com/dfuentes03/installapplications-json/preflight/installapplications-preflight.sh"
+    }
+  ],
+  "setupassistant": [],
+  "userland": [
+    {
+      "file": "/Library/installapplications/munkitools-5.5.0.4362.pkg",
+      "hash": "7f435ae56fd6651e4e3e8b3bd4bf43971fda1d686dec9a23ad1416a73ec9ee7b",
+      "name": "munkitools-5.5.0.4362.pkg",
+      "packageid": "",
+      "type": "package",
+      "url": "https://github.com/dfuentes03/installapplications-json/userland/munkitools-5.5.0.4362.pkg",
+      "version": ""
+    },
+    {
+      "file": "/Library/installapplications/run_munki.py",
+      "hash": "20bfc12a1015e978c4bbe98f2dd06dc2e4315e6b7449be6ea3d578e6d1444a06",
+      "name": "run_munki.py",
+      "type": "rootscript",
+      "url": "https://github.com/dfuentes03/installapplications-json/userland/run_munki.py"
+    }
+  ]
+}
